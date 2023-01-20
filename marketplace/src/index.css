@@ -24,7 +24,9 @@ html {
 }
 
 .card {
-  margin-left: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 5em;
   color: #20c20e;
   opacity: 0.8;
   

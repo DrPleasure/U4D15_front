@@ -41,9 +41,9 @@ export default function ProductsList() {
                 <Card.Text>
                   {product.description}
                 </Card.Text>
-                <Link to={`/details/${product._id}`}>
-    <Button variant="primary">View Product</Button>
-</Link>
+                <Link to={`/details/${product._id}`}>             
+                   <Button variant="primary">View Product</Button>
+                </Link>
                 <Button className="m-2" variant="success">Add to Cart</Button>
               </Card.Body>
             </Card>
