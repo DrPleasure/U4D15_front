@@ -1,0 +1,21 @@
+body {
+    background-color: #000000
+}
+
+.welcomemsg {
+    background-color: #000000;
+    color: #20c20e;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: Creepster;
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+
+}
+
+
+#msg {
+    font-size: 38px;
+}
