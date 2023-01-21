@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './productdetails.css';
 import { useParams } from 'react-router-dom';
-import MatrixRain from '../Matrixrain';
 
 function ProductDetails() {
   const [product, setProduct] = useState({});
@@ -38,8 +37,8 @@ function ProductDetails() {
           Reviews:
           {product.reviews_id.map((review) => (
             <div key={review.id}>
-              <div>{review.comment}</div>
-              <div>{review.rate}</div>
+              <div>Comment: {review.comment}</div>
+              <div>Rating: {review.rate}</div>
             </div>
           ))}
         </div>
